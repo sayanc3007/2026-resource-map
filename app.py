@@ -20,6 +20,7 @@ for col in widget_columns:
 
 # 4. INITIALIZE THE DASH APP
 app = Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.H2("2026 Snapshot: Global Resource Distribution", style={'fontFamily': 'Arial', 'textAlign': 'center'}),
