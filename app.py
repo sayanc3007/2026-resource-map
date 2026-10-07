@@ -62,7 +62,7 @@ def update_map(selected_cols):
         locationmode='country names', 
         color='Dynamic_Total', 
         hover_name=country_col, 
-        hover_data={country_col: False, 'Dynamic_Total': ':.2f'}, 
+        hover_data={country_col: False, 'Dynamic_Total': ':,.0f'}, 
         color_continuous_scale=brown_shades, 
         labels={'Dynamic_Total': 'Total Resources'}, # <--- ADD THIS LINE 
         title="Total Resources for Selected Categories"   
